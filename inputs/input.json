@@ -1,0 +1,6 @@
+input file HF sim
+{"N_HF":257, "remove_alias":true, "dt_HF":0.001, "t_start":0, "simulation_time":10}
+{"sim_ID": "From_initial_conditions", 
+"store_final_state": true, 
+"restart": false, "restart_file_name": "..",
+"plot_frame_rate":1000}
