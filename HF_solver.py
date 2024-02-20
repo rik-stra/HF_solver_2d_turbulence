@@ -119,7 +119,7 @@ else:
     sys.exit()
 
 #framerate of storing data, plotting results (1 = every integration time step)
-S_fields = np.floor(n_steps/plot_frame_rate).astype('int')+2
+S_fields = np.floor(n_steps/plot_frame_rate).astype('int')+1
 
     
 ###############################
