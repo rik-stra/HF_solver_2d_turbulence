@@ -20,7 +20,7 @@ $$u(x,y) = \sum_{\boldsymbol{k} \in \mathbb{Z}^2} \hat{u}_{\boldsymbol{k}} e^{i(
 
 ## Requirments
 
-This project requires PyTorch. It is developed to use GPU acceleration, but it should also work on "CPU only" devices (not tested). You may also need Git LFS (Large File Storage) to download the large files in the repository, as it was used to upload them.
+This project requires PyTorch. It is developed to use GPU acceleration, but it should also work on "CPU only" devices.
 
 ## Workflow for setting up a subgrid parametrization
 
