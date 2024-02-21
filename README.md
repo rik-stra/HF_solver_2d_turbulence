@@ -28,9 +28,9 @@ This project requires PyTorch. It is developed to use GPU acceleration, but it s
 
 Both the CNN base-parametrization and the tau-orthogonal method require training data. For the CNN this training data consists of {input: low fidelity fields;  output: SGS field}. The tau orthogonal method needs the trajectory of the quanities of interest in a high fidelity simulation (its targets to track).
 
-The training datasets can be created using "compute_reference_torch.py". 
+The training datasets can be created using "HF_solver.py". 
 Which implements a pseudo-spectral AB/BDI2 scheme. 
-For details, please see "more_on_inputs.md". 
+For details, please see "input_explained.md". 
 
 The CNNs are typically trained on a data set with 2000 input -> output fields. These can be obtained from a 2000-day simulation. Such a simulation takes up to 3 hours with GPU acceleration. After which it has created a file with training data for the CNNs and a file with reference data for the tau-orthogonal method.
 
